@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/text1_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="one,one"
+                android:textSize="24sp"
+                tools:text="one,one" />
+
+            <TextView
+                android:id="@+id/text1_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="one,two"
+                android:textSize="24sp"
+                tools:text="one,two" />
+
+            <TextView
+                android:id="@+id/text1_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="one,three"
+                android:textSize="24sp"
+                tools:text="one,three" />
+
+            <TextView
+                android:id="@+id/text1_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="one,three"
+                android:textSize="24sp"
+                tools:text="one,four" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="two.one"
+                android:textSize="24sp"
+                tools:text="two,one" />
+
+            <TextView
+                android:id="@+id/text2_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="two,two"
+                android:textSize="24sp"
+                tools:text="two,two" />
+
+            <TextView
+                android:id="@+id/text2_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="two,three"
+                android:textSize="24sp"
+                tools:text="two,three" />
+
+            <TextView
+                android:id="@+id/text2_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="two,four"
+                android:textSize="24sp"
+                tools:text="two,four" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="three,one"
+                android:textSize="24sp"
+                tools:text="three,one" />
+
+            <TextView
+                android:id="@+id/text3_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="three,two"
+                android:textSize="24sp"
+                tools:text="three,two" />
+
+            <TextView
+                android:id="@+id/text3_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="three,three"
+                android:textSize="24sp"
+                tools:text="three,three" />
+
+            <TextView
+                android:id="@+id/text3_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="three,four"
+                android:textSize="24sp"
+                tools:text="three,four" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="four,one"
+                android:textSize="24sp"
+                tools:text="four,one" />
+
+            <TextView
+                android:id="@+id/text4_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="four,two"
+                android:textSize="24sp"
+                tools:text="four,two" />
+
+            <TextView
+                android:id="@+id/text4_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="four,three"
+                android:textSize="24sp"
+                tools:text="four,three" />
+
+            <TextView
+                android:id="@+id/text4_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="four,four"
+                android:textSize="24sp"
+                tools:text="four,four" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

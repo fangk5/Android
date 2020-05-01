@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="edu.fjnu.lab2_layout.ui.home.HomeFragment"
+        android:label="linearlayout"
+        tools:layout="@layout/fragment_linearlayout" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="edu.fjnu.lab2_layout.ui.dashboard.DashboardFragment"
+        android:label="constraintlayout"
+        tools:layout="@layout/fragment_constraintlayout" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="edu.fjnu.lab2_layout.ui.notifications.NotificationsFragment"
+        android:label="tablelayout"
+        tools:layout="@layout/fragment_tablelayout" />
+</navigation>
