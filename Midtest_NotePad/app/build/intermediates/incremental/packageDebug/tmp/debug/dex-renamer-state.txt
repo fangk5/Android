@@ -1,0 +1,4 @@
+#Tue Jun 02 23:29:42 CST 2020
+base.0=E\:\\Android-Git\\NotePad-master\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
