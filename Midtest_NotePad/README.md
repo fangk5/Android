@@ -1,11 +1,11 @@
-## NotePad
+# NotePad
 
-#时间戳
+##时间戳
 
 添加了创建时间与修改时间的显示
 ![1](/picture/task1.png)
 
-#查询功能
+##查询功能
 
 右上角菜单添加了查询按钮
 ![2-1](/picture/task2-1.png)
